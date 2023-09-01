@@ -19,3 +19,12 @@ models:
             tests:
                 - unique
                 - not_null
+    
+    - name: sales_transform
+      description: "A starter dbt model"
+      columns:
+          - name: Invoice ID
+            description: "The primary key for this table"
+            tests:
+                - unique
+                - not_null
